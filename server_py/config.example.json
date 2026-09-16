@@ -1,0 +1,4 @@
+{
+  "dashscopeApiKey": "在此填入你的 DashScope API Key（阿里云百炼）",
+  "model": "qwen-flash"
+}

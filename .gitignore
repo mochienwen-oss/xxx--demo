@@ -1,0 +1,40 @@
+# ========== 私密配置（绝不能上传） ==========
+# 真实 API Key 所在文件：只提交 config.example.json 模板
+server_py/config.json
+
+# 本地副本 / 历史练习目录
+my_first_github/
+
+# Claude / IDE 本地配置与凭据
+.claude/
+
+# ========== 数据与数据库 ==========
+# SQLite 数据库：含用户密码哈希、会话 token、业务数据
+server_py/data/
+*.db
+*.db-wal
+*.db-shm
+
+# ========== 依赖与构建产物 ==========
+web/node_modules/
+web/dist/
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ========== 环境变量（惯例） ==========
+.env
+.env.*
+
+# ========== 临时调试脚本 ==========
+cdp_*.js
+verify.js
+
+# ========== 本地产物与系统文件 ==========
+ppt_build/
+*.log
+.DS_Store
+Thumbs.db
